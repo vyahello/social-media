@@ -1,3 +1,5 @@
+// Start animation implementation
+
 // SOURCE: http://codepen.io/Thibka/pen/mWGxNj
 var canvas = document.getElementById('canvas'),
   context = canvas.getContext('2d'),

@@ -1,3 +1,5 @@
+![Screenshot](media/logo.png)
+
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
@@ -23,13 +25,13 @@
 
 ## Usage
 
-TBD
+![Usage](media/demo.gif)
 
 ### Quick start
 
 ```
 git clone git@github.com:vyahello/social-media.git
-cd django-blog
+cd social-media
 pip install -r requirements.txt
 cd social
 python manage.py runserver
@@ -45,7 +47,7 @@ Please follow the next instructions to create fresh app:
 ```bash
 django-admin startproject social
 cd social 
-django-admin startapp app
+django-admin startapp accounts
 python app/manage.py createsuperuser
 ```
 
@@ -55,7 +57,7 @@ DB migration is performed in case of table changes (e.g new field or column adde
 
 Please follow the next instructions to migrate DB:
 ```bash
-cd web_site
+cd social
 python manage.py migrate
 python manage.py makemigrations app
 python manage.py migrate
