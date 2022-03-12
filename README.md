@@ -27,6 +27,8 @@
 
 ![Usage](media/demo.gif)
 
+> Please check http://djangomedia.pythonanywhere.com deployed app.
+
 ### Quick start
 
 ```
