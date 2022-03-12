@@ -1,6 +1,6 @@
+argon2-cffi==21.3.0
 bcrypt==3.2.0
 Django==1.11.17
-django[argon2]
 django-bootstrap3==11.0.0
 django-braces==1.11.0
 misaka==2.1.1
